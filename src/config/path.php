@@ -13,6 +13,6 @@ define('DB_PASS', '');
 define('ROOT' , dirname(dirname( __FILE__)));  // https://localhost/product_app/product/src
 
 # constance for the absolute URL of the app
-define('URL', 'https://localhost/product_app/');
+define('URL', 'https://localhost/productApp/');
 
 ?>

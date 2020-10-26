@@ -38,7 +38,7 @@ class Product{
         $this->db->query("DELETE FROM products WHERE id= :id");
         $this->db->bind('id', $id);
         if($this->db->execute()){
-            header("Location: /product_app/product/list");   // redirects back to product/list page as an alternative do to not using AJAX
+            header("Location: /productApp/product/list");   // redirects back to product/list page as an alternative do to not using AJAX
             return;
             
         } else{
