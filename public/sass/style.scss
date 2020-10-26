@@ -1,0 +1,31 @@
+@import "./cards";
+@import "./var";
+@import "./mainButtons";
+
+* {
+box-sizing: border-box;
+}
+
+
+
+body {
+    background: $gradient;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer {
+    color: rgb(231, 146, 19);
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+#checkProduct{
+  color: white;
+}
+
+#footer{
+  margin-top: 50px;
+}
+

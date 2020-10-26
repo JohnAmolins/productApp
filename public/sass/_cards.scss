@@ -1,0 +1,31 @@
+#cards .form-check {
+    margin: 10 0 0 10 ;
+}
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 50px;
+  }
+  
+  
+  /* Style the cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  &:hover{
+    background: #62ee8c;
+    transition: 1s;
+  }
+}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+}
