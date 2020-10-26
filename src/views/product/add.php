@@ -29,7 +29,7 @@
                 <br>
                     <label for="dvd">Size:</label> 
                     <input type="text" id="dvd" name="size" value="<?php echo $data['size']?>"/><br />
-                    <p>Please provide size of the DVD disc in Megabites(in MB)</p>
+                    <p>Please provide size of the DVD disc in Megabits(in MB)</p>
                 </div>
                 </div>
 
